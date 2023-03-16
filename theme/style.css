@@ -44,6 +44,29 @@ body {
   padding: 40px;
 }
 
+/* Language translate */
+.langs {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: end;
+}
+.langs a {
+  color: #e1bb80;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0 5px;
+}
+.langs a:hover {
+  background-color: #382e22;
+  border-radius: 2px;
+}
+.langs a.active {
+  color: #ffffff;
+}
+.langs span {
+  color: #e1bb80;
+}
+
 /* Image, Name & Role style */
 .profile-text {
   position: relative;
@@ -187,10 +210,11 @@ body {
 }
 
 .item-text span {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .date {
+  margin-left: 10px;
   font-size: 0.75em;
   color: #5e503fbb;
 }
