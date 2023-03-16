@@ -1,12 +1,7 @@
 /* 
-background 1: #e6dbd0
-background 2: #ffffff
-
-alternative dark: #5e503f
-alternative light: #e1bb80
-*/
-
-/* General Style */
+ * General 
+ * ==================================================
+ */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 * {
@@ -24,8 +19,6 @@ body {
   min-height: 100vh;
 }
 
-
-
 /* Container style */
 .container {
   position: relative;
@@ -37,10 +30,14 @@ body {
   grid-template-columns: 1fr 2fr;
   margin: 50px;
 }
+/* ================================================== */
 
 
 
-/* Left side style */
+/* 
+ * Left side 
+ * ==================================================
+ */
 .left-side {
   position: relative;
   background: #5e503f;
@@ -54,7 +51,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
-  border-bottom: 1px solid #F7FFF6;
+  border-bottom: 1px solid #e1bb80;
 }
 
 .image-box {
@@ -107,7 +104,7 @@ body {
   margin: 10px 0;
   cursor: pointer;
 }
-.contact-info ul li .icon {
+.icon {
   display: inline-block;
   width: 30px;
   font-size: 18px;
@@ -119,10 +116,89 @@ body {
   text-decoration: none;
 }
 
+/* Skills */
+.skills,
+.languages {
+  padding-top: 40px;
+}
 
-/* Right side style */
+
+.skill-content ul li,
+.language-content ul li {
+  color: #ffffff;
+  list-style: none;
+}
+
+.skill-content ul li:before,
+.language-content ul li:before {
+  content: '\2022';
+  margin: 0 20px 0 0;
+  color: #e1bb80 /* cor da bolinha */
+ }
+
+
+
+/* ================================================== */
+
+
+
+/* 
+ * Right side 
+ * ==================================================
+ */
 .right-side {
   position: relative;
   background: #ffffff;
   padding: 40px;
 }
+
+.about-me,
+.education,
+.extra-course,
+.projects {
+  padding-top: 40px;
+}
+
+.main-title {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #5e503f;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #5e503f;
+  padding-bottom: 10px;
+}
+
+.main-text {
+  font-size: 1em;
+  color: #3d3d3d;
+}
+
+.item-text {
+  font-size: 1.05em;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #5e503f;
+}
+
+.item-text a {
+  color: #5e503f;
+
+}
+
+.item-text span {
+  margin-left: 10px;
+}
+
+.date {
+  font-size: 0.75em;
+  color: #5e503fbb;
+}
+
+/* 
+background 1: #e6dbd0
+background 2: #ffffff
+
+alternative dark: #5e503f
+alternative light: #e1bb80
+*/
