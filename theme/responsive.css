@@ -1,0 +1,17 @@
+/* Até 950px */
+@media screen and (max-width: 950px) {
+
+  /* Container style */
+  .container {
+    margin: 0px;
+  }
+}
+
+/* Até 550px */
+@media screen and (max-width: 550px) {
+
+  /* Container style */
+  .container {
+    display: block;
+  }
+}
