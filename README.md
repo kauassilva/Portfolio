@@ -1,27 +1,28 @@
-<h1 align="center"><a href="https://kauassilva.github.io/Curriculo-Web/" taget="_blank">Meu Currículo Web</h1>
+<h1 align="center"><a href="https://kauassilva.github.io/Curriculo-Web/" taget="_blank">My Web Resume</h1>
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=COMPLETED&color=GREEN&style=for-the-badge)
 
-Aplicação Web do meu currículo online. A página apresenta um design moderno e responsivo, com seções bem organizadas e informações detalhadas sobre quem sou, minhas habilidades técnicas, formação acadêmica, cursos extras e projetos pessoais. Além disso, a página inclui links para meu perfil do [GitHub](https://github.com/kauassilva) e [LinkedIn](https://www.linkedin.com/in/kaua-santos/). O site é intuitivo e fácil de navegar com a possibilidade de mudar o idioma caso queira ver o conteúdo em inglês.
+My online resume Web application. The page features a modern and responsive design, with well-organized sections and detailed information about who I am, my technical skills, academic background, extra courses, and personal projects. In addition, the page includes links to my [GitHub](https://github.com/kauassilva) and [LinkedIn](https://www.linkedin.com/in/kaua-santos/) profiles. The site is intuitive and easy to navigate with the option to switch to English language if you want to see the content in English.
 
-## 🔨 Funcionalidades da aplicação
+## 🔨 Application Features
 
-- `Seletor de idiomas`: é possível escolher o idioma da aplicação entre português e inglês, sendo o primeiro o idioma padrão. Para fazer a troca, em cima da foto do perfil, clique em "EN" para trocar para o inglês, ou "BR" para trocar para o português.
+- `Language selector`: it's possible to choose the application language between Portuguese and English, with the former being the default language. To make the switch, click on "EN" above the profile picture to switch to English, or "BR" to switch to Portuguese.
   
-  | Português | Inglês |
+  | Portuguese | English |
   | --- | --- |
   | ![](assets/readme/portugueseVersion.png) | ![](assets/readme/englishVersion.png) |
   
-- `Responsividade`: é possível ver o mesmo conteúdo de forma agradável sem afetar o conteúdo em si, em diferentes tamanhos de tela.
-  | Largura <= 550px | Largura <= 950px | Largura > 950px |
+- `Responsiveness`: it's possible to see the same content in a pleasant way without affecting the content itself, in different screen sizes.
+  
+  | Width <= 550px | Width <= 950px | Width > 950px |
   | --- | --- | --- |
   | ![](assets/readme/smallDevice.png) | ![](assets/readme/mediumDevice.png) | ![](assets/readme/largeDevice.png) |
 
-## 📁 Acesso ao currículo
+## 📁 Access to the curriculum
 
-Você pode acessar a página da aplicação por este link (https://kauassilva.github.io/Curriculo-Web/), ou clicar no título principal deste README
+You can access the application page through this link (https://kauassilva.github.io/Curriculo-Web/), or click on the main title of this README.
 
-## ✅ Tecnologias utilizadas
+## ✅ Technologies used
 
 - `HTML`
 - `CSS`
