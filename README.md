@@ -13,7 +13,7 @@ Aplicação Web do meu currículo online. A página apresenta um design moderno 
   | ![](assets/readme/portugueseVersion.png) | ![](assets/readme/englishVersion.png) |
   
 - `Responsividade`: é possível ver o mesmo conteúdo de forma agradável sem afetar o conteúdo em si, em diferentes tamanhos de tela.
-  | Largura <= 500px | Largura <= 950px | Largura > 950px |
+  | Largura <= 550px | Largura <= 950px | Largura > 950px |
   | --- | --- | --- |
   | ![](assets/readme/smallDevice.png) | ![](assets/readme/mediumDevice.png) | ![](assets/readme/largeDevice.png) |
 
