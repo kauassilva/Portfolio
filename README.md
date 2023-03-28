@@ -7,7 +7,15 @@ Aplicação Web do meu currículo online. A página apresenta um design moderno 
 ## 🔨 Funcionalidades da aplicação
 
 - `Seletor de idiomas`: é possível escolher o idioma da aplicação entre português e inglês, sendo o primeiro o idioma padrão. Para fazer a troca, em cima da foto do perfil, clique em "EN" para trocar para o inglês, ou "BR" para trocar para o português.
+  
+  | Português | Inglês |
+  | --- | --- |
+  | ![](assets/readme/portugueseVersion.png) | ![](assets/readme/englishVersion.png) |
+  
 - `Responsividade`: é possível ver o mesmo conteúdo de forma agradável sem afetar o conteúdo em si, em diferentes tamanhos de tela.
+  | Largura <= 500px | Largura <= 950px | Largura > 950px |
+  | --- | --- | --- |
+  | ![](assets/readme/smallDevice.png) | ![](assets/readme/mediumDevice.png) | ![](assets/readme/largeDevice.png) |
 
 ## 📁 Acesso ao currículo
 
