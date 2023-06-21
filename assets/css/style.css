@@ -3,7 +3,7 @@
 :root {
   --color-dark-background: #383731;
   --color-light-background: #D5C9BF;
-  --color-dark-text: #37393A;
+  --color-darker-background: #151718;
   --color-alternative: #A5806F;
   --font-header: 'Montserrat', sans-serif;
   --font-body: 'Raleway', sans-serif;
@@ -13,7 +13,7 @@
   font-family: var(--font-body);
 }
 
-
+nav,
 .custom-dark-background {
   background-color: var(--color-dark-background);
 }
@@ -22,8 +22,12 @@
   background-color: var(--color-light-background);
 }
 
-.navbar-brand, .nav-link, .card-title {
+.navbar-brand, .nav-link, .card-title, footer p {
   font-family: var(--font-header);
+}
+
+footer {
+  background-color: #151718;
 }
 
 /* Card */
@@ -49,9 +53,11 @@
 }
 
 /* Icon */
-.bi-github {
+.card .bi-github {
   color: #161b22;
 }
-.bi-linkedin {
-  color: #0a66c2;
+
+footer .bi-github,
+footer .bi-linkedin {
+  font-size: 24px;
 }
