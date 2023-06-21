@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap');
+
+:root {
+  --color-dark-background: #383731;
+  --color-light-background: #D5C9BF;
+  --color-darker-background: #151718;
+  --color-alternative: #A5806F;
+  --font-header: 'Montserrat', sans-serif;
+  --font-body: 'Raleway', sans-serif;
+}
+
+* {
+  font-family: var(--font-body);
+}
+
+nav,
+.custom-dark-background {
+  background-color: var(--color-dark-background);
+}
+
+.custom-light-background {
+  background-color: var(--color-light-background);
+}
+
+.navbar-brand, .nav-link, .card-title, footer p {
+  font-family: var(--font-header);
+}
+
+footer {
+  background-color: #151718;
+}
+
+/* Card */
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all ease 1.4s;
+  border-color: var(--color-light-background);
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.inner {
+  overflow: hidden;
+  height: 200px;
+}
+
+.inner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Icon */
+.card .bi-github {
+  color: #161b22;
+}
+
+footer .bi-github,
+footer .bi-linkedin {
+  font-size: 24px;
+}
