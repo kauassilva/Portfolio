@@ -1,6 +1,10 @@
 <h1 align="center"><a href="https://kauassilva.github.io/Curriculo-Web/" taget="_blank">My Web Resume</h1>
+  
+![Static Badge](https://img.shields.io/badge/STATUS-EM_MANUTENÇÃO-orange)
 
+<!--
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=COMPLETED&color=GREEN&style=for-the-badge)
+-->
 
 My online resume Web application. The page features a modern and responsive design, with well-organized sections and detailed information about who I am, my technical skills, academic background, extra courses, and personal projects. In addition, the page includes links to my [GitHub](https://github.com/kauassilva) and [LinkedIn](https://www.linkedin.com/in/kaua-santos/) profiles. The site is intuitive and easy to navigate with the option to switch to English language if you want to see the content in English.
 
