@@ -13,7 +13,6 @@
   font-family: var(--font-body);
 }
 
-nav,
 .custom-dark-background {
   background-color: var(--color-dark-background);
 }
@@ -22,41 +21,15 @@ nav,
   background-color: var(--color-light-background);
 }
 
-.navbar-brand, .nav-link, .card-title, footer p {
+.custom-darker-background {
+  background-color: var(--color-darker-background);
+}
+
+.custom-header-font {
   font-family: var(--font-header);
 }
 
-footer {
-  background-color: #151718;
-}
-
-/* Card */
-.card {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  transition: all ease 1.4s;
-  border-color: var(--color-light-background);
-}
-
-.card:hover {
-  transform: scale(1.1);
-}
-
-.inner {
-  overflow: hidden;
-  height: 200px;
-}
-
-.inner img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-/* Icon */
-.card .bi-github {
-  color: #161b22;
-}
-
+/* Footer icon */
 footer .bi-github,
 footer .bi-linkedin {
   font-size: 24px;

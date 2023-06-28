@@ -1,0 +1,53 @@
+/* Academic Timeline */
+#main-education .timeline-items::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: calc(100% - 96px);
+  background-color: #D5C9BF;
+  left: calc(50% - 1px);
+}
+
+#main-education .timeline-item:nth-child(odd) {
+  margin-right: calc(50% + 30px);
+  text-align: right;
+  margin-left: 100px;
+}
+
+#main-education .timeline-item:nth-child(even) {
+  margin-left: calc(50% + 30px);
+  margin-right: 100px;
+}
+
+#main-education .timeline-dot {
+  height: 16px;
+  width: 16px;
+  background-color: #A5806F;
+  position: absolute;
+  left: calc(100% + 23px);
+  border-radius: 50%;
+  top: 35px;
+}
+
+#main-education .timeline-item:nth-child(even) .timeline-dot {
+  left: calc(0% - 39px);
+}
+
+/* Responsive for Academic Timeline */
+@media(max-width: 1199px) {
+  #main-education .timeline-items::before {
+    left: 22px;
+  }
+  
+  #main-education .timeline-item:nth-child(odd),
+  #main-education .timeline-item:nth-child(even) {
+    margin-left: 30px;
+    margin-right: 0;
+    text-align: left;
+  }
+
+  #main-education .timeline-dot,
+  #main-education .timeline-item:nth-child(even) .timeline-dot {
+    left: -28px;
+  }
+}

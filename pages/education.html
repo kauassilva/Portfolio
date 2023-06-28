@@ -7,15 +7,16 @@
   <title>Educação | Kauã dos Santos Silva</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/global.css">
+  <link rel="stylesheet" href="../assets/css/education.css">
 </head>
 
 <body class="custom-dark-background">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg py-3 fixed-top" data-bs-theme="dark">
+  <nav class="navbar navbar-expand-lg py-3 fixed-top custom-dark-background" data-bs-theme="dark">
     <div class="container">
-      <a class="navbar-brand fw-medium" href="../index.html">Kauã dos Santos Silva</a>
+      <a class="navbar-brand fw-medium custom-header-font" href="../index.html">Kauã dos Santos Silva</a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,34 +25,66 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="../index.html">Página principal</a>
+            <a class="nav-link custom-header-font" href="../index.html">Página principal</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="project.html">Projetos</a>
+            <a class="nav-link custom-header-font" aria-current="page" href="project.html">Projetos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active fw-bold" href="#">Educação</a>
+            <a class="nav-link custom-header-font active fw-bold" href="#">Educação</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="curriculum.html">Currículo</a>
+            <a class="nav-link custom-header-font" href="curriculum.html">Currículo</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Main Section -->
-  <section class="py-5 mt-5 text-light">
-    <div class="container py-5">
-      <h1>Página de Educação em desenvolvimento...</h1>
-      <p>Se deseja acessar meu currículo ou ver meus projetos, você pode encontrá-los clicando nos links da barra de navegação acima.</p>
+  <!-- Academic Timeline -->
+  <section class="pt-5 mt-5 text-light" id="main-education">
+    <div class="timeline-items container py-5 position-relative">
+      <div class="timeline-item card custom-light-background mb-5 position-relative">
+        <div class="timeline-dot"></div>
+        <div class="card-body">
+          <h6 class="card-subtitle text-body-secondary">Fevereiro de 2022 &bull; Dezembro de 2025</h6>
+          <h5 class="card-title custom-header-font">Ciência da Computação</h5>
+          <h6 class="card-subtitle mb-3 text-body-secondary">Universidade Anhembi Morumbi &bull; Mooca</h6>
+          <p class="card-text text-body-secondary">Ainda não finalizei, mas estou descobrindo e aprendendo coisas novas todos os dias, sinto que estou chegando cada vez mais perto do meu objetivo.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item card custom-light-background mb-5 position-relative">
+        <div class="timeline-dot"></div>
+        <div class="card-body">
+          <h6 class="card-subtitle text-body-secondary">Fevereiro de 2019 &bull; Dezembro de 2021</h6>
+          <h5 class="card-title custom-header-font">Ensino Médio</h5>
+          <h6 class="card-subtitle mb-3 text-body-secondary">Apollo Colégio &bull; Itaquaquecetuba</h6>
+          <p class="card-text text-body-secondary">Aqui eu terminei uma etapa importante. Eu estava "livre" para poder escolher um rumo e como eu já tinha conhecido a área da TI, decidi então, a me tornar um Desenvolvedor.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item card custom-light-background position-relative">
+        <div class="timeline-dot"></div>
+        <div class="card-body">
+          <h6 class="card-subtitle text-body-secondary">Fevereiro de 2020 &bull; Julho de 2021</h6>
+          <h5 class="card-title custom-header-font">Desenvolvimento de Sistemas</h5>
+          <h6 class="card-subtitle mb-3 text-body-secondary">ETEC de Itaquaquecetuba</h6>
+          <p class="card-text text-body-secondary">Onde tudo começou. Foi aqui que eu me introduzi no mundo da TI, e descobri suas possibilidades, dificuldades e benefícios.</p>
+        </div>
+      </div>
     </div>
   </section>
 
+  <!-- Timeline of additional courses, licenses, and certifications -->
+  <section id="extra-education">
+
+  </section>
+
   <!-- Footer -->
-  <footer class="py-4 mt-5" data-bs-theme="dark">
+  <footer class="py-4 custom-darker-background" data-bs-theme="dark">
     <div class="container d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
-      <p class="mb-0 text-body-secondary">Kauã dos Santos Silva &bull; 2023</p>
+      <p class="mb-0 text-body-secondary custom-header-font">Kauã dos Santos Silva &bull; 2023</p>
   
       <ul class="nav">
         <li class="nav-item"><a href="https://github.com/kauassilva" class="nav-link px-2 text-body-secondary" target="_blank"><i class="bi bi-github"></i></a></li>
