@@ -33,6 +33,42 @@
   left: calc(0% - 39px);
 }
 
+
+
+
+
+/* Certificate Timeline */
+#extra-education .timeline-items::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #D5C9BF;
+  left: 10px;
+}
+
+#extra-education .timeline-dot {
+  height: 16px;
+  width: 16px;
+  background-color: #A5806F;
+  position: absolute;
+  left: -28px;
+  border-radius: 50%;
+  top: 20px;
+}
+
+#extra-education .timeline-item {
+  margin-left: 18px;
+}
+
+.download-icon {
+  font-size: 1.5rem;
+}
+
+
+
+
+
 /* Responsive for Academic Timeline */
 @media(max-width: 1199px) {
   #main-education .timeline-items::before {
