@@ -17,6 +17,10 @@ body {
   padding-top: 72px;
 }
 
+.custom-alternative-color {
+  color: var(--color-alternative);
+}
+
 .custom-dark-background {
   background-color: var(--color-dark-background);
 }
