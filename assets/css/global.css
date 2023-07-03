@@ -13,6 +13,10 @@
   font-family: var(--font-body);
 }
 
+body {
+  padding-top: 72px;
+}
+
 .custom-dark-background {
   background-color: var(--color-dark-background);
 }
