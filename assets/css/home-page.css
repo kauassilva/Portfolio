@@ -1,9 +1,13 @@
-/* Variables */
+/* Variables & Resets */
 :root {
   --color-dark-background: #383731;
   --color-light-background: #D5C9BF;
   --color-darker-background: #151718;
   --color-alternative: #A5806F;
+}
+
+section {
+  min-height: 545px;
 }
 
 
@@ -47,4 +51,23 @@
 
 #introduction-container #skills-icons-container img:hover {
   transform: scale(1.25);
+}
+
+
+
+
+
+/* About Me Section */
+#about-me-container h2 {
+  text-transform: uppercase;
+}
+
+#about-me-container p {
+  text-align: justify;
+}
+
+#about-me-container .line {
+  height: 2px;
+  width: 300px;
+  background-color: var(--color-dark-background);
 }
