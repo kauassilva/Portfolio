@@ -1,0 +1,92 @@
+/* Variables & Resets */
+:root {
+  --color-dark-background: #383731;
+  --color-light-background: #D5C9BF;
+  --color-darker-background: #151718;
+  --color-alternative: #A5806F;
+}
+
+section {
+  min-height: 545px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+
+
+/* Introduction Section */
+#introduction-container #my-photo {
+  box-shadow: 0 0 3rem #15171875;
+  width: 250px;
+  height: 250px;
+}
+
+#introduction-container .nav-link {
+  transition: all .3s ease-out;
+}
+#introduction-container .nav-link:hover {
+  transform: scale(1.2);
+}
+
+#introduction-container .bi {
+  font-size: 24px;
+  color: var(--color-light-background);
+  opacity: .75;
+  transition: all .3s ease-out;
+}
+#introduction-container .bi:hover {
+  opacity: 1;
+}
+
+#introduction-container #skills-icons-container {
+  box-shadow: 0 0 3rem #d5c9bf2f;
+  background-color: var(--color-light-background);
+}
+
+#introduction-container #skills-icons-container img {
+  width: 30px;
+  height: 30px;
+  transition: all .3s ease-out;
+}
+
+#introduction-container #skills-icons-container img:hover {
+  transform: scale(1.25);
+}
+
+
+
+/* About Me Section */
+#about-me-container .line {
+  height: 2px;
+  width: 300px;
+  background-color: var(--color-dark-background);
+}
+
+
+
+/* Projects Section */
+#project-container #current-project {
+  max-width: 400px;
+}
+
+#project-container .card {
+  box-shadow: 0 0 1rem #d5c9bf2f;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  transition: all ease 1.3s;
+  border-color: var(--color-light-background);
+}
+
+#project-container .card:hover {
+  transform: scale(1.05);
+}
+
+#project-container .card p {
+  font-size: 1em;
+}

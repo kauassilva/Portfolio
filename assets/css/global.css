@@ -13,6 +13,23 @@
   font-family: var(--font-body);
 }
 
+body {
+  padding-top: 72px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.custom-alternative-color {
+  color: var(--color-alternative);
+}
+.custom-dark-color {
+  color: var(--color-dark-background);
+}
+
 .custom-dark-background {
   background-color: var(--color-dark-background);
 }
@@ -29,8 +46,13 @@
   font-family: var(--font-header);
 }
 
-/* Footer icon */
+
+/* Icons */
 footer .bi-github,
 footer .bi-linkedin {
   font-size: 24px;
+}
+
+.card .bi-github {
+  color: #161b22;
 }
