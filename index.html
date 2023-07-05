@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="assets/css/global.css">
-  <link rel="stylesheet" href="/assets/css/home-page.css">
+  <link rel="stylesheet" href="assets/css/home-page.css">
 </head>
 
 <body class="custom-dark-background">
@@ -48,7 +48,7 @@
         <div class="row align-items-end g-5">
           <!-- Picture & social icons -->
           <div class="col-lg-6"  data-bs-theme="dark">
-            <img src="/assets/images/me.jpg" class="d-block mx-auto img-fluid rounded-circle" id="my-photo" alt="Foto de perfil minha" loading="lazy">
+            <img src="assets/images/me.jpg" class="d-block mx-auto img-fluid rounded-circle" id="my-photo" alt="Foto de perfil minha" loading="lazy">
 
             <ul class="nav justify-content-center mt-4">
               <li class="nav-item mx-3">
@@ -68,19 +68,19 @@
 
             <div class="mt-5 py-3 px-3 px-sm-0 rounded d-flex justify-content-between justify-content-sm-evenly" id="skills-icons-container">
               <!-- Java -->
-              <img src="/assets/images/icons/java-icon.svg" alt="Logotipo da Java">
+              <img src="assets/images/icons/java-icon.svg" alt="Logotipo da Java">
               <!-- Spring -->
-              <img src="/assets/images/icons/springio-icon.svg" alt="Logotipo do Spring">
+              <img src="assets/images/icons/springio-icon.svg" alt="Logotipo do Spring">
               <!-- MySQL -->
-              <img src="/assets/images/icons/mysql-icon.svg" alt="Logotipo do MySQL">
+              <img src="assets/images/icons/mysql-icon.svg" alt="Logotipo do MySQL">
               <!-- HTML -->
-              <img src="/assets/images/icons/w3_html5-icon.svg" alt="Logotipo do HTML">
+              <img src="assets/images/icons/w3_html5-icon.svg" alt="Logotipo do HTML">
               <!-- CSS -->
-              <img src="/assets/images/icons/w3_css-icon.svg" alt="Logotipo do CSS">
+              <img src="assets/images/icons/w3_css-icon.svg" alt="Logotipo do CSS">
               <!-- Bootstrap -->
-              <img src="/assets/images/icons/getbootstrap-icon.svg" alt="Logotipo do Bootstrap">
+              <img src="assets/images/icons/getbootstrap-icon.svg" alt="Logotipo do Bootstrap">
               <!-- Git -->
-              <img src="/assets/images/icons/git-scm-icon.svg" alt="Logotipo do Git">
+              <img src="assets/images/icons/git-scm-icon.svg" alt="Logotipo do Git">
             </div>
           </div>
         </div>
@@ -88,8 +88,8 @@
     </section>
 
     <!-- About Me Section -->
-    <section id="about-me-container">
-      <div class="custom-light-background px-4 py-5 text-center">
+    <section id="about-me-container" class="custom-light-background">
+      <div class="container py-5 text-center">
         <div class="py-5">
           <h2 class="fw-bold custom-dark-color">Sobre mim</h2>
           <div class="col-lg-6 mx-auto pb-5 content">
@@ -97,6 +97,43 @@
             <p class="mb-4">Meu objetivo é aprimorar minhas habilidades em Java e nos frameworks relacionados. Quero aprender cada vez mais, explorar novas técnicas e ferramentas e me tornar um <span class="fw-bold custom-dark-color">desenvolvedor Java</span> bem capacitado. Busco a oportunidade de conseguir um estágio, onde posso aplicar meus conhecimentos na prática e aprender com profissionais experientes. No futuro, pretendo crescer profissionalmente e assumir desafios maiores, contribuindo para projetos inovadores. Com dedicação e determinação, pretendo construir uma carreira gratificante e inspiradora no campo da programação.</p>
           </div>
           <div class="line mx-auto"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="project-container" class="d-flex align-items-center">
+      <div class="container py-5 px-lg-5 text-light d-flex">
+        <div class="row align-items-center g-5 py-5">
+          <!-- Body -->
+          <div class="col-lg-6 text-center">
+            <h2 class="fw-bold lh-1">Meus projetos</h2>
+            <p class="lead mt-5">Ao acessar a página de projetos você encontrará uma lista dos meus trabalhos ao longo do tempo. Aplicações Web e Desktop, projetos originais e clones, estão todos aqui. Dê uma olhada e explore!</p>
+            <a href="pages/project.html" role="button" class="mt-1 btn custom-light-background btn-lg px-3">Ver mais projetos</a>
+          </div>
+
+          <!-- Card -->
+          <div class="col-lg-6 d-flex justify-content-center">
+            <div>
+              <div class="card" id="current-project">
+                <div class="inner">
+                  <img src="assets/images/projects/portfolio.png" class="card-img-top" alt="Ilustração do projeto do portfolio" loading="lazy">
+                </div>
+                <div class="card-body custom-light-background d-flex flex-column justify-content-between">
+                  <div class="mb-3">
+                    <h5 class="card-title custom-header-font">Portfolio</h5>
+                    <p class="card-text">Meu portfolio (este website).</p>
+                  </div>
+    
+                  <div class="d-flex align-items-center justify-content-between">
+                    <p class="mb-0">HTML &bull; CSS &bull; JS &bull; Bootstrap</p>
+                    <a href="https://github.com/kauassilva/Curriculo-Web" class="fs-5" target="_blank"><i class="bi bi-github mx-2"></i></a>
+                  </div>
+                </div>
+              </div>
+              <p class="text-white-50 mt-2 text-end">Projeto mais recente</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

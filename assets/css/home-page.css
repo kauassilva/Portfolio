@@ -10,7 +10,13 @@ section {
   min-height: 545px;
 }
 
+h2 {
+  text-transform: uppercase;
+}
 
+p {
+  text-align: justify;
+}
 
 
 
@@ -55,19 +61,26 @@ section {
 
 
 
-
-
 /* About Me Section */
-#about-me-container h2 {
-  text-transform: uppercase;
-}
-
-#about-me-container p {
-  text-align: justify;
-}
-
 #about-me-container .line {
   height: 2px;
   width: 300px;
   background-color: var(--color-dark-background);
+}
+
+
+
+/* Projects Section */
+#project-container #current-project {
+  max-width: 400px;
+}
+
+#project-container .card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all ease 1.3s;
+  border-color: var(--color-light-background);
+}
+
+#project-container .card:hover {
+  transform: scale(1.05);
 }

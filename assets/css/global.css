@@ -40,8 +40,13 @@ body {
   font-family: var(--font-header);
 }
 
-/* Footer icon */
+
+/* Icons */
 footer .bi-github,
 footer .bi-linkedin {
   font-size: 24px;
+}
+
+.card .bi-github {
+  color: #161b22;
 }
