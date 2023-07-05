@@ -16,6 +16,7 @@ h2 {
 
 p {
   text-align: justify;
+  font-size: 1.1em;
 }
 
 
@@ -76,11 +77,16 @@ p {
 }
 
 #project-container .card {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 1rem #d5c9bf2f;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
   transition: all ease 1.3s;
   border-color: var(--color-light-background);
 }
 
 #project-container .card:hover {
   transform: scale(1.05);
+}
+
+#project-container .card p {
+  font-size: 1em;
 }
